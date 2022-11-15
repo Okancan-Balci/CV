@@ -1,0 +1,34 @@
+---
+name: Okancan
+surname: Balcı
+address: "Ankara/ Turkey"
+phone: +90 505 807 30 29
+www: soon-to-be-filled
+email: "okancan.balci@gmail.com"
+github: Okancan-Balci
+linkedin: okancan-balci
+aboutme: "Aspiring Data Scientist"
+output: vitae::twentyseconds
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae)
+```
+
+
+# Education
+
+# Technical Stack
+
+# Certificates
+
+# Academic Works
+
+# Personal Projects
+
+
+
+
+
