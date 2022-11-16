@@ -1,8 +1,8 @@
 ---
 name: Okancan
 surname: Balcı
-address: "Ankara/ Turkey"
-phone: +90 505 807 30 29
+address: "Ankara / Turkey"
+phone: +90 505 807 39 29
 www: soon-to-be-filled
 email: "okancan.balci@gmail.com"
 github: Okancan-Balci
@@ -33,32 +33,53 @@ read.csv(file = "education.csv", header = TRUE) %>%
 
 # Technical Stack
 
-## R Programming Language
+```{r}
+read_csv2("skills.csv") %>% 
+  detailed_entries(
+    when = skill,
+    why = information
+  )
+```
 
-* Base R, Tidyverse, ggplot2, Tidytext, Tidymodels, data.table
-
-## Python
-
-* NumPy, Pandas, Matplotlib, Seaborn, Sci-Kit Learn, Tensorflow, Selenium Webdriver
-
-## SQL
-
-* MySQL, Google BigQuery
-
-## Statistics
-
-* Linear Regression, Logistic Regression, Poisson Regression, A/B Test
-
-## Misc
-
-* Data Visualization, Data Wrangling, Data Cleaning, Web Scrapping, Natural Language Processing
 
 # Certificates
 
+```{r}
+read_csv2("certificates.csv") %>% 
+  detailed_entries(
+    when = year,
+    what = certificate,
+    with = institution,
+    why = details
+  )
+```
+
+
 # Academic Works
+
+```{r}
+read_csv2("academic.csv") %>% 
+  detailed_entries(
+    when = year,
+    what = project,
+    with = institution,
+    why = info,
+    where = context
+  )
+```
+
 
 # Personal Projects
 
+```{r}
+read_csv2("projects.csv") %>% 
+  detailed_entries(
+    when = year,
+    what = project,
+    with = where,
+    why = info
+  )
+```
 
 
 
