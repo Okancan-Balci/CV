@@ -7,11 +7,16 @@ www: soon-to-be-filled
 email: "okancan.balci@gmail.com"
 github: Okancan-Balci
 linkedin: okancan-balci
+twitter: okancan
 aboutme: "Aspiring Data Scientist"
 output: vitae::twentyseconds
 ---
 
 ```{r setup, include=FALSE}
+## Played around with the package templates(vitae/twentyseconds) and lazily changed twitter with kaggle for hyperlinks.
+## For kaggle I am still using twitter handle in YAML file lol
+## Also used fontawesome5 instead of fontawsome for kaggle icon
+
 library(tidyverse)
 knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 library(vitae)
