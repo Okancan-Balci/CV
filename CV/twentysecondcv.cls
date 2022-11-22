@@ -23,7 +23,7 @@
 \RequirePackage{pgffor}
 \RequirePackage{marvosym}
 \RequirePackage{parskip}
-\RequirePackage[left=7.6cm,top=0.1cm,right=1cm,bottom=0.1cm,nohead,nofoot]{geometry}
+\RequirePackage[left=6.4cm,top=0cm,right=0.3cm,bottom=0cm,nohead,nofoot]{geometry}
 \DeclareOption*{\PassOptionsToClass{\CurrentOption}{article}}
 \ProcessOptions\relax
 
@@ -32,7 +32,7 @@
 %----------------------------------------------------------------------------------------
 
 \definecolor{white}{RGB}{255,255,255}
-\definecolor{gray}{HTML}{4D4D4D}
+\definecolor{gray}{HTML}{363636}
 \definecolor{sidecolor}{HTML}{E7E7E7}
 \definecolor{mainblue}{HTML}{0E5484}
 \definecolor{maingray}{HTML}{B9B9B9}
@@ -41,7 +41,7 @@
 %	 MISC CONFIGURATIONS
 %----------------------------------------------------------------------------------------
 
-\renewcommand{\bfseries}{\color{gray}} % Make \textbf produce coloured text instead
+\renewcommand{\bfseries}{\color{mainblue}} % Make \textbf produce coloured text instead
 \def\endfirstpage{\newpage\newgeometry{left=1.5cm,top=1.5cm,right=1.5cm,bottom=1.5cm}}
 \usepackage{fancyhdr}
 \pagestyle{fancy}
@@ -56,8 +56,8 @@
 %	 SIDEBAR DEFINITIONS
 %----------------------------------------------------------------------------------------
 
-\setlength{\TPHorizModule}{1cm} % Left margin
-\setlength{\TPVertModule}{1cm} % Top margin
+\setlength{\TPHorizModule}{0.8cm} % Left margin
+\setlength{\TPVertModule}{0.8cm} % Top margin
 
 \newlength\imagewidth
 \newlength\imagescale

@@ -8,7 +8,8 @@ email: "okancan.balci@gmail.com"
 github: Okancan-Balci
 linkedin: okancan-balci
 twitter: okancan
-aboutme: "Aspiring Data Scientist"
+aboutme: "Aspiring Data Scientist \n bla  \n bla bla bla bla bla"
+profilepic: "temp.jpg"
 output: vitae::twentyseconds
 ---
 
@@ -38,7 +39,7 @@ read.csv(file = "education.csv", header = TRUE) %>%
 
 # Technical Stack
 
-```{r}
+```{r, eval=FALSE}
 read_csv2("skills.csv") %>% 
   detailed_entries(
     when = skill,
@@ -46,6 +47,29 @@ read_csv2("skills.csv") %>%
   )
 ```
 
+#### R Programming Language
+
+Base R, Tidyverse, ggplot2, Tidytext, Tidymodels, data.table
+
+#### Python
+
+NumPy, Pandas, Matplotlib, Seaborn, Sci-Kit Learn, Tensorflow, Selenium Webdriver, PySpark
+
+#### SQL
+
+MySQL, Google BigQuery
+
+#### Data Science
+
+Data Visualization, Data Wrangling, Data Cleaning, Web Scrapping, Natural Language Processing
+
+#### Statistics
+
+Linear Regression, Logistic Regression, Poisson Regression, A/B Tests
+
+#### Version Control
+
+GIT and GitHub
 
 # Certificates
 
